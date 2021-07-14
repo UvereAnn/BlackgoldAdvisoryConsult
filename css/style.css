@@ -1,6 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    left: 0;
+    top: 0;
+    right: 0;
+    font-family: 'Poppins-Regular';
+}
 body{
     margin: 0;
     padding: 0;
+    background-color: rgb(239, 243, 239);
 }
 html{
     scroll-behavior: smooth;
@@ -69,7 +78,7 @@ nav ul li a{
 }
 
 nav ul li a.active,nav ul li a:hover{
-    background: #b1d22d;
+    background: goldenrod;
     transition: .5s;
 }
 
@@ -86,7 +95,7 @@ nav ul li a.active,nav ul li a:hover{
 .checkbtn i{
     font-size: 25px;
     font-weight: 900;
-    color: #b1d22d;
+    color: goldenrod;
 }
 
 #check{
@@ -124,7 +133,7 @@ nav ul li a.active,nav ul li a:hover{
         font-size: 20px;
     }
     a:hover, a.active{
-        background: #b1d22d;
+        background: goldenrod;
         color: #0082e6;
     }
     #check:checked ~ ul{
@@ -221,7 +230,7 @@ i{
     padding: 17px 15px;
 }
 .search-btn{
-    background-color: #b1d22d;
+    background-color: goldenrod;
     border-radius: 10px;
     margin-top: 3px;
     border: none;
@@ -232,7 +241,7 @@ i{
     margin-top: 40px;
     background-color: rgb(239, 243, 239);
 }
-.s-name h2{
+.s-name h1{
     text-align: center;
     letter-spacing: 0.1em;
     font-family: 'Poppins-Regular';
@@ -246,7 +255,7 @@ i{
     margin-bottom: 85px;
     width: 75px;
 }
-.ser-name h2{
+.ser-name h1{
     font-family: 'Poppins-Regular';
     font-size: 23px;
     color: #030303;
@@ -274,14 +283,17 @@ i{
     background-color: rgb(239, 243, 239);
 }
 .section-title h1{
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 700;
-    color: #000;
-    margin-top: 15px;
-}
+    color: black;
+    margin-top: 100px;
+    font-family: 'Poppins-Regular';
+    text-align: center;
+    letter-spacing: 0.1em;
+}  
 
-.section p{
-    color: #9191aa;
+.section-title p{
+    font-size: 24px;
 }
 
 .contact-main{
@@ -316,7 +328,7 @@ i{
     width: 80px;
     height: 3px;
     bottom: 1.5px;
-    background-color: #fb3c7f;
+    background-color: goldenrod;
 }
 
 .form{
@@ -355,19 +367,19 @@ i{
     display: block;
     cursor: pointer;
     width: 100%;
-    background-color: #fb3c7f;
-    color: #fff;
+    background-color: goldenrod;
+    color: black;
     border-radius: 20px;
     padding: 10px;
 }
 
 .form-group .btn:hover{
-    background: #fff;
+    background: black;
     color: #333;
 }
 
 .contact-address{
-    background: #fb3c7f;
+    background: goldenrod;
     padding: 30px;
     height: 560px;
     border-top-right-radius: 20px;
@@ -377,14 +389,14 @@ i{
 .contact-address h2{
     font-size: 18px;
     margin-bottom: 15px;
-    color: #fff;
+    color: black;
     text-align: left;
 }
 
 .address li{
     margin-bottom: 10px;
     position: relative;
-    color: #eee;
+    color: black;
     
 }
 
@@ -396,12 +408,12 @@ i{
 .address li i{
     left: 0%;
     top: 50%;
-    color: #eee;
+    color: black;
     width: 25px;
 }
 
 .address li a{
-    color: #eee;
+    color: black;
 }
 
 .social{
@@ -419,12 +431,12 @@ i{
 }
 
 .social li a{
-    color: #fff;
+    color: black;
     display: block;
 }
 
 .social li a i{
-    color: #fff;
+    color: black;
     width: 30px;
     height: 30px;
     line-height: 30px;
@@ -436,7 +448,7 @@ i{
 }
 
 .social li:hover a i{
-    background: #fff;
+    background: black;
     color: #333;
 }
 
@@ -454,6 +466,17 @@ i{
     padding-top: 100px;
 }
 
+.about-container h2{  
+    text-align: center;
+    letter-spacing: 0.1em;
+    font-weight: 700;
+    margin: 80px 0px 18px 0px;
+    font-family: 'Poppins-Regular';
+    font-size: 23px;
+    color: #030303;
+    padding: 20px 0px 5px 0px;   
+}
+
 .content-section{
     float: left;
     width: 55%;
@@ -467,6 +490,7 @@ i{
 .image-section img{
     width: 100%;
     height: auto;
+    margin-top: 23px;
 }
 
 .content-section .title{
@@ -492,7 +516,7 @@ i{
 }
 
 .content-section .content .about-button a{
-    background-color: #3d3d3d;
+    background-color: goldenrod;
     padding: 12px 40px;
     color: #fff;
     text-decoration: none;
@@ -502,7 +526,7 @@ i{
 }
 
 .content-section .content .about-button a:hover{
-    background-color: #a52a2a;
+    background-color: darkblue;
     color: #fff;
 }
 
@@ -511,13 +535,13 @@ i{
 }
 
 .content-section .social i{
-    color: #a52a2a;
+    color: goldenrod;
     font-size: 30px;
     padding: 0px 10px;
 }
 
 .content-section .social i:hover{
-    color: #3d3d3d;
+    color: darkblue;
 }
 
 @media screen and (max-width: 768px) {
@@ -570,12 +594,18 @@ i{
     width: 90%;
     height: auto;
     text-align: center;
-    
+    margin: 60px 50px;
 }
 
 .clients-wrap h2{
-    font-size: 30px;
-    color: #555;
+    text-align: center;
+    letter-spacing: 0.1em;
+    font-weight: 700;
+    margin: 80px 0px 18px 0px;
+    font-family: 'Poppins-Regular';
+    font-size: 23px;
+    color: #030303;
+    padding: 20px 0px 5px 0px;   
      
 }
 
@@ -644,3 +674,44 @@ i{
          background: url('../images/IMG-20210602-WA0003.jpg');
      }
  }
+
+
+
+ /*************Trending**********************/
+.index-trending{
+    width: 100%;
+    padding: 80px 0px;
+}
+
+.wrapper{
+    margin: 0px 30px;
+}
+
+.trending h1{
+    text-align: center;
+    letter-spacing: 0.1em;
+    font-weight: 700;
+    margin: 80px 0px 18px 0px;
+    font-family: 'Poppins-Regular';
+    font-size: 23px;
+    color: #030303;
+    padding: 20px 0px 5px 0px;   
+}
+
+.index-trending article{
+    width: 16%;
+    background-color: goldenrod;
+    margin: 0% 2%;
+    float: left;   
+}
+
+article h3{
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    font-size: 24px;
+}
+
+article p{
+    margin: 20px;
+}
